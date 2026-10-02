@@ -24,8 +24,9 @@ export const siteConfig: SiteConfig = {
   transitions: [
     { id: 't1', theme: 'mist-dew', badge: '01 • Titian Fajar', caption: 'Kabut pagi tersibak dari permukaan Kapuas' },
     { id: 't2', theme: 'borneo-jungle', badge: '02 • Jalinan Hayat', caption: 'Akar-akar rimba menjalin tiga peradaban' },
-    { id: 't3', theme: 'kapuas-waters', badge: '03 • Riak Alir Kapuas', caption: 'Riak sungai mengalir menuju senja' },
-    { id: 't4', theme: 'coffee-spice', badge: '04 • Ceret & Rempah', caption: 'Uap ceret tembaga dan bara sangrai kopi' },
+    { id: 't3', theme: 'equator-solar', badge: '03 • Garis Horizon Nol', caption: 'Suar surya di titik kulminasi nol derajat' },
+    { id: 't4', theme: 'kapuas-waters', badge: '04 • Riak Alir Kapuas', caption: 'Riak sungai mengalir menuju senja' },
+    { id: 't5', theme: 'coffee-spice', badge: '05 • Ceret & Rempah', caption: 'Uap ceret tembaga dan bara sangrai kopi' },
   ],
 
   chapters: [
@@ -169,10 +170,57 @@ export const siteConfig: SiteConfig = {
       audio: 'sapeh',
     },
     {
-      id: 'tepian',
+      id: 'nol-derajat',
       index: 'III',
-      badge: '03 • Riak Alir Kapuas',
-      gate: 'Merengkuh Senja III',
+      badge: '03 • Garis Horizon Nol',
+      gate: 'Menapaki Titik III',
+      title: 'Lintang Nol Derajat',
+      summary:
+        'Di Siantan, sebuah tugu putih menandai garis yang membelah bumi menjadi dua. Dua kali setahun, matahari berdiri tepat di atasnya — dan semua bayangan menghilang.',
+      coordinates: `0°00'00.0" LU · 109°19'22.0" BT`,
+      image: {
+        src: '/media/bab4-khatulistiwa.png',
+        alt: 'Tugu Khatulistiwa putih dengan anak panah penanda garis nol derajat di bawah matahari tegak lurus',
+        position: '50% 38%',
+      },
+      lede: 'Ada garis yang tidak terlihat namun dirayakan seluruh dunia sains, dan ia melintas tepat melintasi kota ini. Di kelurahan Siantan, Tugu Khatulistiwa menancapkan anak panahnya pada lintang 0°00′00″ — satu-satunya kota di dunia yang dilalui garis khayal paling terkenal di planet ini.',
+      paragraphs: [
+        'Setiap 21–23 Maret dan 21–23 September, terjadi kulminasi: matahari berada tepat di zenit khatulistiwa. Pada pukul dua belas siang, tugu tak berbayang, botol air berdiri tanpa condong, dan telur konon bisa ditegakkan di atas piring datar. Ribuan orang datang untuk menyaksikan fenomena lima menit yang membuat ilmu falak terasa seperti sulap.',
+        'Tugu pertama didirikan ekspedisi geografi Belanda pada 1928 — tonggak kayu sederhana dengan anak panah. Bangunan yang berdiri kini diresmikan 1991, lima kali lebih besar, dengan ruang kecil yang menyimpan tugu asli di dalamnya seperti jantung di dalam tulang rusuk.',
+        'Berdiri dengan satu kaki di utara dan satu kaki di selatan garis itu, orang akan merasakan sesuatu yang jarang ditawarkan geografi: kepastian. Di sini, utara dan selatan bukanlah arah — melainkan dua telapak kaki.',
+      ],
+      quote: 'Di titik nol, matahari tidak condong kepada siapa pun. Barangkali begitulah cara bumi mengajarkan keadilan.',
+      quoteAttribution: 'Catatan kulminasi, 12.00 WIB',
+      marginalia: [
+        {
+          heading: 'Kulminasi',
+          text: 'Titik kulminasi matahari di khatulistiwa terjadi sekitar 21–23 Maret dan 21–23 September; bayangan benda tegak menghilang selama beberapa menit.',
+        },
+        {
+          heading: '1928',
+          text: 'Ekspedisi geografi Belanda menegakkan tonggak pertama penanda khatulistiwa di Siantan; tugu aslinya kini disimpan di dalam bangunan baru.',
+        },
+      ],
+      locations: ['khatulistiwa'],
+      gallery: [
+        {
+          id: 'khatulistiwa-gallery',
+          name: 'Tugu Khatulistiwa Siantan',
+          category: 'Ikon Dunia',
+          highlight: 'Monumen Garis Lintang 0°00\'00" & Hari Kulminasi Matahari',
+          description:
+            'Monumen kebanggaan Pontianak di lintang nol derajat. Dua kali setahun, matahari berada tepat di zenit, membuat semua bayangan benda tegak menghilang sempurna.',
+          image: '/tugu-khatulistiwa.jpg',
+          mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Tugu+Khatulistiwa+Pontianak',
+        },
+      ],
+      audio: 'rimba',
+    },
+    {
+      id: 'tepian',
+      index: 'IV',
+      badge: '04 • Riak Alir Kapuas',
+      gate: 'Merengkuh Senja IV',
       title: 'Denyut Tepian Kapuas',
       summary:
         'Sungai terpanjang di Nusantara tidak mengalir melewati Pontianak — Pontianaklah yang tumbuh di tepinya, dan waterfront-nya adalah beranda kota.',
@@ -227,9 +275,9 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: 'rasa',
-      index: 'IV',
-      badge: '04 • Ceret & Rempah',
-      gate: 'Mengecap Rasa IV',
+      index: 'V',
+      badge: '05 • Ceret & Rempah',
+      gate: 'Mengecap Rasa V',
       title: 'Pusaka Kopi & Kuliner Legendaris',
       summary:
         'Sebelum kota bangun, ceret Asiang sudah mendidih. Sejak 1958, warung kopi tua itu menjaga sebuah ritual pagi yang tidak pernah berubah.',
@@ -309,6 +357,20 @@ export const siteConfig: SiteConfig = {
   ],
 
   locations: {
+    khatulistiwa: {
+      id: 'khatulistiwa',
+      name: 'Tugu Khatulistiwa',
+      capsule: 'Tugu Khatulistiwa, Siantan',
+      address: 'Jl. Khatulistiwa, Siantan, Kec. Pontianak Utara, Kota Pontianak',
+      dms: `0°00'00.0" LU · 109°19'22.0" BT`,
+      lat: 0.0006,
+      lng: 109.3228,
+      mapX: 44,
+      mapY: 30,
+      category: 'Ikon Khatulistiwa',
+      highlight: 'Titik Nol Derajat & Fenomena Tanpa Bayangan',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Tugu+Khatulistiwa+Pontianak',
+    },
     mujahidin: {
       id: 'mujahidin',
       name: 'Masjid Raya Mujahidin',
@@ -488,8 +550,8 @@ export const siteConfig: SiteConfig = {
   },
 
   colophon: {
-    quote: 'Di tepian Kapuas yang tenang, setiap arah adalah pulang.',
-    note: 'Narasi Kota Khatulistiwa adalah jurnal perjalanan editorial tentang harmoni budaya, pusaka belian, denyut tepian Kapuas, dan kuliner legendaris Pontianak.',
+    quote: 'Di lintang nol derajat, setiap arah adalah pulang.',
+    note: 'Narasi Kota Khatulistiwa adalah jurnal perjalanan editorial tentang harmoni budaya, pusaka belian, garis khatulistiwa, denyut tepian Kapuas, dan kuliner legendaris Pontianak.',
     restartLabel: 'Kembali ke fajar Kapuas',
     credit: 'NARASI KOTA KHATULISTIWA · 2026',
   },

@@ -14,7 +14,7 @@ import { useActiveSection } from "@/hooks/useActiveSection";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { useReveal } from "@/hooks/useReveal";
 
-const CHAPTER_LABELS = ['I', 'II', 'III', 'IV'];
+const CHAPTER_LABELS = ['I', 'II', 'III', 'IV', 'V'];
 
 export default function Home() {
   const [showCinematic, setShowCinematic] = useState<boolean>(() => {
@@ -51,7 +51,7 @@ export default function Home() {
     () => [
       { id: 'prolog', label: '00' },
       ...siteConfig.chapters.map((c, i) => ({ id: c.id, label: CHAPTER_LABELS[i] ?? c.index })),
-      { id: 'kolofon', label: 'V' },
+      { id: 'kolofon', label: 'VI' },
     ],
     [],
   );
