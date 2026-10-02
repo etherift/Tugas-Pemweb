@@ -72,7 +72,7 @@ export const siteConfig: SiteConfig = {
           description:
             'Gereja katedral agung dengan menara lonceng kembar megah, deretan kaca patri artistik warna-warni, serta perpaduan arsitektur Romawi kuno dan relief ukiran kayu belian khas Dayak.',
           image: '/katedral-santo-yosef-2026.jpg',
-          mapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=-0.0269,109.336',
+          mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Gereja+Katedral+Santo+Yosef+Pontianak',
         },
         {
           id: 'mujahidin-gallery',
@@ -82,7 +82,7 @@ export const siteConfig: SiteConfig = {
           description:
             'Masjid terbesar dan termegah di Kalimantan Barat yang mampu menampung belasan ribu jamaah, berarsitektur modern dengan pilar-pilar kokoh serta kubah bertingkat yang anggun di pusat kota.',
           image: '/masjid-raya-mujahidin-2026.jpg',
-          mapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=-0.0296,109.325',
+          mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Masjid+Raya+Mujahidin+Pontianak',
         },
       ],
       audio: 'kapuas',
@@ -375,20 +375,21 @@ export const siteConfig: SiteConfig = {
       id: 'mujahidin',
       name: 'Masjid Raya Mujahidin',
       capsule: 'Masjid Raya Mujahidin',
-      address: 'Jl. Jend. Ahmad Yani, Akcaya, Pontianak Selatan',
-      dms: `0°01'46.6" LS · 109°19'30.0" BT`,
-      lat: -0.0296,
-      lng: 109.325,
+      address: 'Jl. Jend. Ahmad Yani, Akcaya, Kec. Pontianak Selatan, Kota Pontianak',
+      dms: `0°02'34.1" LS · 109°20'14.5" BT`,
+      lat: -0.0428,
+      lng: 109.3374,
       mapX: 52,
       mapY: 62,
       category: 'Wisata Religi',
       highlight: 'Kubah Emas Bertingkat & Menara 60 Meter',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Masjid+Raya+Mujahidin+Pontianak',
     },
     katedral: {
       id: 'katedral',
       name: 'Gereja Katedral Santo Yosef',
       capsule: 'Katedral Santo Yosef',
-      address: 'Jl. Patimura No.195, Pontianak Kota',
+      address: 'Jl. Pattimura No. 195, Darat Sekip, Kec. Pontianak Kota, Kota Pontianak',
       dms: `0°01'36.8" LS · 109°20'09.6" BT`,
       lat: -0.0269,
       lng: 109.336,
@@ -396,6 +397,7 @@ export const siteConfig: SiteConfig = {
       mapY: 58,
       category: 'Wisata Religi',
       highlight: 'Perpaduan Romawi Kuno & Ukiran Ulin Dayak',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Gereja+Katedral+Santo+Yosef+Pontianak',
     },
     radakng: {
       id: 'radakng',
@@ -409,6 +411,7 @@ export const siteConfig: SiteConfig = {
       mapY: 76,
       category: 'Cagar Budaya',
       highlight: 'Rumah Adat Dayak Terpanjang 138 Meter di Indonesia',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rumah+Radakng+Pontianak',
     },
     kelenteng: {
       id: 'kelenteng',
@@ -422,6 +425,7 @@ export const siteConfig: SiteConfig = {
       mapY: 66,
       category: 'Cagar Budaya',
       highlight: 'Kelenteng Tertua Bersejarah Sejak 1673 M',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Vihara+Bodhisatva+Karaniya+Metta+Pontianak',
     },
     kadriah: {
       id: 'kadriah',
@@ -435,6 +439,7 @@ export const siteConfig: SiteConfig = {
       mapY: 52,
       category: 'Cagar Budaya',
       highlight: 'Istana Kayu Belian Sejak 1771 & Titik Muara Kapuas-Landak',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Keraton+Kadriah+Pontianak',
     },
     insang: {
       id: 'insang',
@@ -448,6 +453,7 @@ export const siteConfig: SiteConfig = {
       mapY: 55,
       category: 'Cagar Budaya',
       highlight: 'Warisan Budaya Takbenda & Tenun ATBM Tradisional',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Kampung+Beting+Pontianak+Timur',
     },
     waterfront: {
       id: 'waterfront',
