@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+@import "../styles/base.css";
+@import "../styles/chrome.css";
+@import "../styles/hero.css";
+@import "../styles/chapters.css";
+@import "../styles/transitions.css";
+@import "../styles/responsive.css";
+
+@theme {
+  --color-terra-primary: #4a7c59;
+  --color-terra-primary-hover: #3c6548;
+  --color-terra-bg: #faf6f0;
+  --color-terra-surface: #f4efe6;
+  --color-terra-surface-variant: #ede5d8;
+  --color-terra-tertiary: #705c30;
+  --color-terra-tertiary-light: #8c733e;
+  --color-terra-text: #2e3230;
+  --color-terra-muted: #5d6660;
+  --color-terra-dark: #232a25;
+  --color-terra-dark-surface: #1c221e;
+  --color-terra-border: rgba(46, 50, 48, 0.1);
+  --color-terra-border-subtle: rgba(46, 50, 48, 0.05);
+
+  --font-serif: var(--font-literata), Georgia, serif;
+  --font-sans: var(--font-nunito-sans), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+
+  --shadow-terra-soft: 0 4px 20px rgba(46, 50, 48, 0.06);
+  --shadow-terra-lifted: 0 10px 30px rgba(46, 50, 48, 0.09);
+}
+
+:root {
+  --canvas: #faf6f0;
+  --surface: #f4efe6;
+  --surface-variant: #ede5d8;
+  --primary: #4a7c59;
+  --tertiary: #705c30;
+  --text-main: #2e3230;
+  --text-muted: #5d6660;
+  --dark-peat: #232a25;
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--text-main);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 1.65;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #faf6f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #dcd5c9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4a7c59;
+}

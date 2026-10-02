@@ -1,0 +1,37 @@
+:root {
+  --terra-bg: #faf6f0;
+  --terra-surface: #f4efe6;
+  --terra-variant: #ede5d8;
+  --foliage: #4a7c59;
+  --foliage-deep: #3c6548;
+  --peat: #705c30;
+  --gold: #f5d070;
+  --amber: #d4a34b;
+  --charcoal: #2e3230;
+  --mist: #5d6660;
+  --night: #232a25;
+  --night-deep: #1c221e;
+  --kapuas: #93c5d6;
+
+  --font-serif: var(--font-literata), 'Literata', Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-nunito-sans), 'Nunito Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-curtain: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --rail-width: clamp(64px, 5.5vw, 96px);
+  --gutter: clamp(20px, 4.2vw, 72px);
+  --measure: 68ch;
+
+  --type-micro: clamp(11px, 0.78vw, 13px);
+  --type-small: clamp(13.5px, 0.95vw, 15.5px);
+  --type-body: clamp(15.5px, 1.05vw, 17.5px);
+}
+
+html[data-motion='reduced'] {
+  scroll-behavior: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
