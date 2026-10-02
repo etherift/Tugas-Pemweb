@@ -32,7 +32,7 @@ export function MapModal({ location, onClose }: Props) {
   if (!location) return null
 
   const embed = `https://www.google.com/maps?q=${location.lat},${location.lng}&z=16&output=embed`
-  const directions = `https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`
+  const directions = location.mapsUrl || `https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`
 
   return (
     <div className="mapmodal-backdrop" role="presentation" onClick={onClose}>

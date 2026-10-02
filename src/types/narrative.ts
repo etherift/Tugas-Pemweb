@@ -25,6 +25,7 @@ export interface MapLocation {
   mapY: number
   category?: string
   highlight?: string
+  mapsUrl?: string
 }
 
 export interface MarginalNote {
